@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="src/interface.js"></script>
+  <script src="src/note.js"></script>
+</head>
+<body>
+  <h1>Note Pad</h1>
+  <form>
+    <!-- user input -->
+    <textarea name="noteArea" id="textarea" cols="30" rows="10"></textarea>
+  </form>
+  <!-- createNote will call the function/event at onclick -->
+  <button value="noted" id="button" onclick="createNote(id)">Create </button>
+  <div id='yo'>
+    <!-- lists object -->
+    <ul id='unorderlist'>
+    <!-- populated by JS -->
+      <!-- <a href="https://google.com" target="_blank">GOOGLEEEE</a> -->
+    </ul>
+  </div>
+</body>
+</html>
+<!-- 
+<html>
+  <head></head>
+  <body>
+    <script>
+      var a = document.createElement('a');
+      var linkText = document.createTextNode("my title text");
+      a.appendChild(linkText);
+      a.title = "my title text";
+      a.href = "http://example.com";
+      document.body.appendChild(a);
+    </script>
+  </body>
+</html> -->
